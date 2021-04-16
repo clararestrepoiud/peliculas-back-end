@@ -18,6 +18,8 @@ public class Profile implements Serializable{
 	@Column(name="name")	
 	private String nombre;
 
+
+
 	public int getId() {
 		return id;
 	}
@@ -33,7 +35,10 @@ public class Profile implements Serializable{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
+
+
+
+
 	
 
 }

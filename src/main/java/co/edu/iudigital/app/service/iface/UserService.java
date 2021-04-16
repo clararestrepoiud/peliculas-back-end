@@ -15,4 +15,5 @@ public interface UserService {
 	 * @throws Exception
 	 */
 	public User login(User user) throws Exception;
+	
 }
